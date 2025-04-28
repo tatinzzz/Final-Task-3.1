@@ -36,10 +36,9 @@
 ![image](https://github.com/user-attachments/assets/2eeacd42-b80d-4562-9bb4-3700d7812b72)
 ## Task 4 Output
 ![image](https://github.com/user-attachments/assets/e3ff2fd4-2c63-429d-a431-0812bc2ce362)
-## [BACK TO PORTFOLIO](https://tatinzzz.github.io/EDM-Portfolio/)
 
 
-## Task 5 Sql code 
+## Task 5 Sql code
 ![image](https://github.com/user-attachments/assets/3eb541c7-2382-4868-839d-322d07496f90)
 ## Task 5 Output
 ![image](https://github.com/user-attachments/assets/880ed8f8-f996-4acc-884f-1ad8f390fb83)

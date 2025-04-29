@@ -1,1 +1,197 @@
-adas
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Midterm Tasks</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0a;
+      color: #f5f5f5;
+      font-size: 1.1em;
+      line-height: 1.6;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      margin: 40px auto;
+      padding: 40px;
+      width: 90%;
+      max-width: 1000px;
+      box-shadow: 0 0 20px rgba(0, 255, 153, 0.2);
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ff99;
+      text-align: center;
+      font-size: 3em;
+    }
+
+    h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ff99;
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 153, 0.2);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      margin-right: 10px;
+      padding: 12px 30px;
+      background: #00ff99;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #00ff99;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00cc7a;
+      box-shadow: 0 0 15px #00cc7a;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 2.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="https://tatinzzz.github.io/EDM-Portfolio/" class="btn">BACK TO PORTFOLIO</a>
+    <a href="https://github.com/tatinzzz/Final-Task-3.1" class="btn" target="_blank">VIEW ON GITHUB</a>
+  </div>
+
+  <div id="particles-js"></div>
+
+  <section>
+
+  <h1>Final Task 3.1</h1>
+  <p>This task demonstrates the use of various MySQL clauses by performing operations such as filtering, grouping, sorting, and aggregation on a sample course database.</p>
+
+  <div class="section">
+    <h2>Step-by-Step Tasks</h2>
+    <ul>
+      <li><strong>Task 1</strong>: Retrieve all courses where <code>students_enrolled</code> is less than <code>enrollment_limit</code>.</li>
+      <li><strong>Task 2</strong>: Group courses by category and calculate the total number of students enrolled per category.</li>
+      <li><strong>Task 3</strong>: Retrieve courses that are fully enrolled (<code>students_enrolled</code> equals <code>enrollment_limit</code>).</li>
+      <li><strong>Task 4</strong>: Calculate the total number of students enrolled across all courses.</li>
+      <li><strong>Task 5</strong>: Sort courses by number of students enrolled in ascending order.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Task 1: Courses with Available Seats</h2>
+    <h3>SQL Code</h3>
+    <img src="https://github.com/user-attachments/assets/037074fd-9bbb-4876-9a11-96de32a088e6" alt="Task 1 SQL Code">
+    <h3>Output</h3>
+    <img src="https://github.com/user-attachments/assets/f779fed2-0db0-48f2-bdcd-394420b4b30f" alt="Task 1 Output">
+  </div>
+
+  <div class="section">
+    <h2>Task 2: Group by Category</h2>
+    <h3>SQL Code</h3>
+    <img src="https://github.com/user-attachments/assets/9b0eddca-0050-4aad-bce1-4ab41d0d0bdf" alt="Task 2 SQL Code">
+    <h3>Output</h3>
+    <img src="https://github.com/user-attachments/assets/afb2a5d6-0ff7-49d7-8a48-ab4ecba5e948" alt="Task 2 Output">
+  </div>
+
+  <div class="section">
+    <h2>Task 3: Fully Enrolled Courses</h2>
+    <h3>SQL Code</h3>
+    <img src="https://github.com/user-attachments/assets/30146a1c-a975-463b-87bc-c2780eacbf10" alt="Task 3 SQL Code">
+    <h3>Output</h3>
+    <img src="https://github.com/user-attachments/assets/7d190b6d-44ae-474b-a9b5-c3a42e63654d" alt="Task 3 Output">
+  </div>
+
+  <div class="section">
+    <h2>Task 4: Total Enrollment</h2>
+    <h3>SQL Code</h3>
+    <img src="https://github.com/user-attachments/assets/2eeacd42-b80d-4562-9bb4-3700d7812b72" alt="Task 4 SQL Code">
+    <h3>Output</h3>
+    <img src="https://github.com/user-attachments/assets/e3ff2fd4-2c63-429d-a431-0812bc2ce362" alt="Task 4 Output">
+  </div>
+
+  <div class="section">
+    <h2>Task 5: Sort Courses by Enrollment</h2>
+    <h3>SQL Code</h3>
+    <img src="https://github.com/user-attachments/assets/3eb541c7-2382-4868-839d-322d07496f90" alt="Task 5 SQL Code">
+    <h3>Output</h3>
+    <img src="https://github.com/user-attachments/assets/880ed8f8-f996-4acc-884f-1ad8f390fb83" alt="Task 5 Output">
+  </div>
+
+
+
+
+
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": { "value": 100, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#00ff99" },
+        "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" } },
+        "opacity": { "value": 0.5, "anim": { "enable": true, "speed": 1, "opacity_min": 0.1 } },
+        "size": { "value": 3, "random": true, "anim": { "enable": true, "speed": 2, "size_min": 0.1 } },
+        "line_linked": { "enable": true, "distance": 150, "color": "#00ff99", "opacity": 0.4, "width": 1 },
+        "move": { "enable": true, "speed": 3, "direction": "none", "out_mode": "out" }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" }
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+
+
+
